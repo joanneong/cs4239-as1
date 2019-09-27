@@ -13,14 +13,13 @@
 <?php
 	$data = $_POST['data'];
 
-	// display the results
 	echo $data;
 ?>
 
 </body> 
 
 <script> 
-
+	var val = "<?php echo $data; ?>"; 
 </script> 
 
 </html>
